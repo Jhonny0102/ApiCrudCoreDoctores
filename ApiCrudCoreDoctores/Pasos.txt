@@ -6,8 +6,9 @@
 2. Creamos los models/model que utilizaremos.
 3. Creamos el Context para poder mapearlos.
 4. Creamos el repository donde crearemos los metodos.
-5. Creamos el controller(API) donde devolveremos los datos gracias a lso metodos del repo.
+5. Creamos el controller(API) donde devolveremos los datos gracias a los metodos del repo (Recuerda que es importante los parametros en los metodos).
 6. Configuramos program y appsetting.
 7. Comprobamos localmente el funcionamiento correcto.
 8. Configuramos el program y el launchSetting para que el swagger pueda usarse en publico.
-9. Comprobamos que en publico funciona.
+9. En la pagina de azure habilitamos los cors.
+10. Comprobamos que en publico funciona.
