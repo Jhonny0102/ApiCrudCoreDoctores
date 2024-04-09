@@ -1,0 +1,13 @@
+﻿===============================
+======== Creación API =========
+===============================
+
+1. Descargamos los nugget necesarios(Entity).
+2. Creamos los models/model que utilizaremos.
+3. Creamos el Context para poder mapearlos.
+4. Creamos el repository donde crearemos los metodos.
+5. Creamos el controller donde devolveremos los datos gracias a lso metodos del repo.
+6. Configuramos program y appsetting.
+7. Comprobamos localmente el funcionamiento correcto.
+8. Configuramos el program y el launchSetting para que el swagger pueda usarse en publico.
+9. Comprobamos que en publico funciona.
