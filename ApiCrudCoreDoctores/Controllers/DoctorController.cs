@@ -41,7 +41,7 @@ namespace ApiCrudCoreDoctores.Controllers
             return Ok();
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteDoctor(int id)
         {
             await this.repo.DeleteDoctorAsync(id);
